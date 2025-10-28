@@ -1,14 +1,14 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
 
-test.only('has title', async ({ page }) => {
+test('has title', async ({ page }) => {
   await page.goto('https://jumia.com.ng/');
 
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Jumia Nigeria/);
 });
 
-test.only('cart link', async ({ page }) => {
+test('cart link', async ({ page }) => {
   await page.goto('https://jumia.com.ng/cart/');
 
   // Click the cart link.
