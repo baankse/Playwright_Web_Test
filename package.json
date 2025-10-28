@@ -1,0 +1,25 @@
+{
+  "name": "playwright_web_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {"test": "npx playwright test",
+  "head": "npx playwright test --headed", "jumiawebtest": "npx playwright test tests/jumiaweb.spec.js"},
+  
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baankse/Playwright_Web_Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baankse/Playwright_Web_Test/issues"
+  },
+  "homepage": "https://github.com/baankse/Playwright_Web_Test#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1"
+  }
+}
